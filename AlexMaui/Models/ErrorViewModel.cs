@@ -1,4 +1,4 @@
-namespace AlexBlogMVC.Areas.BackEnd.Models
+namespace AlexMaui.Models
 {
     public class ErrorViewModel
     {

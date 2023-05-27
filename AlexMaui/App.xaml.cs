@@ -1,11 +1,12 @@
-﻿namespace AlexMaui;
+﻿using AlexMaui.Models;
+
+namespace AlexMaui;
 
 public partial class App : Application
 {
-	public App()
+	public App(BlogMvcContext blogMvcContext)
 	{
-		InitializeComponent();
-
-		MainPage = new Views.Login();
-	}
+        InitializeComponent();
+        MainPage = new Views.Login(blogMvcContext);
+    }
 }

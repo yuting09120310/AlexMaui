@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AlexBlogMVC.Areas.BackEnd.Models;
+namespace AlexMaui.Models;
 
 public partial class AdminRole
 {

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlexMaui.Views.Login">
+
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="Center"
+                 Spacing="20">
+
+        <Image Source="dotnet_bot.png"
+               SemanticProperties.Description="Cute dot net bot waving hi to you!"
+               HeightRequest="200"
+               HorizontalOptions="Center" />
+
+        <Label Text="歡迎使用 Alex 管理平台"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Entry x:Name="usernameEntry"
+               Placeholder="請輸入帳號"
+               HorizontalOptions="FillAndExpand"
+               Margin="20,0" />
+
+        <Entry x:Name="passwordEntry"
+               Placeholder="請輸入密碼"
+               IsPassword="True"
+               HorizontalOptions="FillAndExpand"
+               Margin="20,10" />
+
+        <Button Text="登入"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="FillAndExpand"
+                Margin="20,20,20,0" />
+    </StackLayout>
+</ContentPage>
